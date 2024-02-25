@@ -6,7 +6,9 @@ const initialState = 0
 //counterReducer(0, {type: INCREASE})
 //counterReducer(0, {type: INCREASE, value: 100})
 
+
 const counterReducer = (state=initialState, action) =>{
+    console.log("Counter Reducer is executed", action );
     switch(action.type){
         case INCREASE:
             return state+ action.value

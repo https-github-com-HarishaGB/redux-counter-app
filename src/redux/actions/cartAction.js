@@ -1,1 +1,0 @@
-import { INCREASE, DECREASE, RESET } from "./actionType";
